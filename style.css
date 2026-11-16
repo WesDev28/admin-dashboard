@@ -48,7 +48,13 @@ body {
     background:lightgray;
     border: 4px solid blue;
     grid-column: 2 / 3;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
 
+.article {
+    background:beige;
+    grid-column:1;
 }
 
 
