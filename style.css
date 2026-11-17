@@ -174,7 +174,7 @@ body {
 }
 
 .card .title {
-    font-weight:700;s
+    font-weight:700;
 }
 
 .boards {
@@ -184,7 +184,7 @@ body {
 }
 
 .annouce {
-    grid-rows: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 .announce h2 {
@@ -201,7 +201,7 @@ body {
 
 
 .trending {
-    grid-rows: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 .trending h2 {
