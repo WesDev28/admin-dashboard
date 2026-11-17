@@ -161,6 +161,8 @@ body {
 img {
     width:2rem;
     height:2rem;
+    /* outline: 1px solid red; */
+    vertical-align: middle;
 
 }
 
