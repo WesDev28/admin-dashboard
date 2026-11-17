@@ -39,11 +39,15 @@ body {
     align-items:center;
 }
 .search {
-
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items:center;
+    gap:10px;
 }
 
 .search img {
-
+    height: 3rem;
+    width: 3rem;
 }
 
 .search-bar {
@@ -51,6 +55,7 @@ body {
     background: #bccbde;
     border:2px solid #e5e7eb;
     border-radius: 5rem;
+    padding: 1rem;
     width: 90%;
     height: 50%;
 }
