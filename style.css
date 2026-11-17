@@ -19,7 +19,9 @@ body {
 
 
 .header {
-    background: whitesmoke;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.25);
+    z-index: 10;
     grid-column: 2 / 3;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -67,6 +69,7 @@ body {
 
 .user-display > p {
     font-weight: 700;
+    font-size: 1.3rem;
     justify-self: start;
 }
 
@@ -77,12 +80,38 @@ body {
     align-items: center;
 }
 
-.header-row2 img {
+.header-row2 > img {
+    width: 3rem;
+    height: 3rem;
     justify-self: center;
 }
 
+.user-hello{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.user-hello > p:first-of-type {
+    font-size: 1rem;
+}
+
+.button-display {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap:20px;
+
+}
+
 .header-row2 button {
-    border-radius: 1rem;
+    background: #1e90d6;
+    color: #fff;
+    font: inherit;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem 1.8rem;
+    border: none;
+    border-radius: 999px;
 }
 
 .sidebar {
@@ -120,7 +149,7 @@ body {
 }
 
 .article {
-    background:beige;
+    background: #01beaf;
     grid-column: 1 / 2;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -185,14 +214,10 @@ body {
     box-shadow: 0 4px 8px rgb(0, 0, 0, 0.5);
 }
 
-
-
 img {
     width:2rem;
     height:2rem;
-    /* outline: 1px solid red; */
     vertical-align: middle;
-
 }
 
 .sidebar img {
